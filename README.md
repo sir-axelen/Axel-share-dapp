@@ -1,4 +1,4 @@
-# Shelby Protocol dApp
+# shelby X axel
 
 Shelby Protocol is a decentralized data storage and sharing dashboard built on the Aptos blockchain. This Next.js application allows users to authenticate using the Petra Wallet and manage their data securely on-chain.
 
