@@ -44,9 +44,9 @@ const DEFAULT_EFFECT_OPTIONS = {
   }
 };
 
-const Hyperspeed = ({ effectOptions = DEFAULT_EFFECT_OPTIONS }) => {
-  const hyperspeed = useRef(null);
-  const appRef = useRef(null);
+const Hyperspeed = ({ effectOptions = DEFAULT_EFFECT_OPTIONS }: { effectOptions?: any }) => {
+  const hyperspeed = useRef<HTMLDivElement>(null);
+  const appRef = useRef<any>(null);
 
   useEffect(() => {
     if (appRef.current) {
