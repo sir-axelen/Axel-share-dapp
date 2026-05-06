@@ -16,7 +16,7 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Shelby File Share — Decentralized Storage on Aptos",
+  title: "shelby X axel",
   description: "Decentralized Real-Time Storage on Aptos",
 };
 
